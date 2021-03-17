@@ -46,8 +46,10 @@ Use the copy function below to do the following:
 */
 
 function copy(array){
-    
+    var copy = originalFlavors.slice();
+    return array;
 }    
+
 
 
 
